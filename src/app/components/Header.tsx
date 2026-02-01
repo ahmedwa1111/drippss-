@@ -56,14 +56,7 @@ export function Header({ cartItemCount, onCartClick, selectedCategory, onCategor
               onClick={() => handleCategoryClick('leggings')}
               className={`transition-colors ${selectedCategory === 'leggings' ? 'text-black font-semibold' : 'text-gray-900 hover:text-gray-600'}`}
             >
-              Footwear
-            </button>
-            <button 
-              onClick={() => handleCategoryClick('Accessories')}
-              className={`transition-colors ${selectedCategory === 'Accessories' ? 'text-black font-semibold' : 'text-gray-900 hover:text-gray-600'}`}
-            >
-              Accessories
-            </button>
+            
           </nav>
 
           {/* Actions */}
