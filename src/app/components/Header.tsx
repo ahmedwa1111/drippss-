@@ -109,20 +109,14 @@ export function Header({ cartItemCount, onCartClick, selectedCategory, onCategor
               onClick={() => handleCategoryClick('Outerwear')}
               className={`block w-full text-left transition-colors ${selectedCategory === 'Outerwear' ? 'text-black font-semibold' : 'text-gray-900 hover:text-gray-600'}`}
             >
-              Outerwear
+              leggings
             </button>
             <button 
               onClick={() => handleCategoryClick('Footwear')}
               className={`block w-full text-left transition-colors ${selectedCategory === 'Footwear' ? 'text-black font-semibold' : 'text-gray-900 hover:text-gray-600'}`}
             >
-              Footwear
-            </button>
-            <button 
-              onClick={() => handleCategoryClick('Accessories')}
-              className={`block w-full text-left transition-colors ${selectedCategory === 'Accessories' ? 'text-black font-semibold' : 'text-gray-900 hover:text-gray-600'}`}
-            >
-              Accessories
-            </button>
+           
+            
           </div>
         )}
       </div>
