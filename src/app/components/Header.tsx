@@ -1,6 +1,7 @@
 import { ShoppingCart, Menu, X, Search } from 'lucide-react';
 import { useState } from 'react';
-import logo from 'figma:asset/db963e8691ed65821f66329d74f5b11f1be5cafd.png';
+import logo from "@/assets/logo.png";
+
 
 interface HeaderProps {
   cartItemCount: number;
