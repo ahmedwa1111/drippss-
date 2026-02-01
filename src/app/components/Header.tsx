@@ -49,7 +49,7 @@ export function Header({ cartItemCount, onCartClick, selectedCategory, onCategor
             </button>
             <button 
               onClick={() => handleCategoryClick('Outerwear')}
-              className={`transition-colors ${selectedCategory === 'Outerwear' ? 'text-black font-semibold' : 'text-gray-900 hover:text-gray-600'}`}
+              className={`transition-colors ${selectedCategory === 'Leggings' ? 'text-black font-semibold' : 'text-gray-900 hover:text-gray-600'}`}
             >
               Outerwear
             </button>
